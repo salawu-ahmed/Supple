@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.colored {
+    color: #3FC3D7;
+}
+
+.logo {
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 48px;
+}
