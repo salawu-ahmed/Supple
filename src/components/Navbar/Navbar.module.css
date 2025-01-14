@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 nav {
     display: flex;
@@ -14,6 +19,7 @@ nav {
     gap: 2rem;
     list-style-type: none;
     font-size: 16px;
+    font-family: "Montserrat", serif;
 }
 
 .colored {

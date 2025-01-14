@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 .hero {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     align-items: center;
-
+    width: 1200px;
+    margin: 64px auto;
     /* border: 2px solid blue; */
-    margin: 64px 0;
+    /* margin: 64px 0; */
 }
 
 .textContent {
@@ -59,4 +62,6 @@
     margin: 0 auto;
     font-size: 20px;
     font-weight: medium;
+    box-shadow: 0 5px 40px #11B8D1;
+    border: none;
 }

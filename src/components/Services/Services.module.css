@@ -1,0 +1,39 @@
+.services {
+   
+    margin: 64px 0;
+    background-color: #202121;
+   margin: 64px 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    padding: 40px;
+}
+
+.title {
+    font-family: "Syne", serif;
+    font-size: 24px;
+    font-weight: semi-bold;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icons {
+    font-size: 40px;
+    color: #3FC3D7;
+    display: block;
+    margin: 0 auto 12px auto;
+
+}
