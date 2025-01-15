@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
 import Wrapper from "./components/Wrapper/Wrapper"
 import './App.css'
+import ChooseUs from "./components/Features/Fearures"
 
 function App() {
   return <>
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <ChooseUs />
     {/* </Wrapper> */}
   </>
 }

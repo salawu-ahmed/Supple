@@ -1,6 +1,5 @@
 .services {
-   
-    margin: 64px 0;
+    /* margin: 64px 0; */
     background-color: #202121;
    margin: 64px 0;
 }
@@ -28,12 +27,13 @@
     font-family: "Montserrat", serif;
     font-size: 20px;
     text-align: center;
+    color: #C7C7C7;
 }
 
 .icons {
-    font-size: 40px;
+   font-size: 40px;
     color: #3FC3D7;
     display: block;
     margin: 0 auto 12px auto;
 
-}
+} 
