@@ -25,14 +25,14 @@ export default function ChooseUs() {
                                 <h2>Feature One</h2>
                                 <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum non suscipit hic asperiores eaque. Velit?</p>
                             </div>
-                            <Icon icon='solar:bicycling-round-outline' className={styles.icons} />
+                            <Icon icon='solar:bolt-outline' className={styles.icons} />
                         </div>
                         <div className={`${styles.feature} ${styles.leftFeature}`}>
                             <div>
                                 <h2>Feature One</h2>
                                 <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum non suscipit hic asperiores eaque. Velit?</p>
                             </div>
-                            <Icon icon='solar:bicycling-round-outline' className={styles.icons} />
+                            <Icon icon='solar:bone-outline' className={styles.icons} />
                         </div>
                     </div>
                     <div className={styles.middle}>
@@ -40,21 +40,21 @@ export default function ChooseUs() {
                     </div>
                     <div className={styles.right}>
                         <div className={styles.feature}>
-                            <Icon icon='solar:bicycling-round-outline' className={styles.icons} />
+                            <Icon icon='solar:bottle-outline' className={styles.icons} />
                             <div>
                                 <h2>Feature One</h2>
                                 <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum non suscipit hic asperiores eaque. Velit?</p>
                             </div>
                         </div>
                         <div className={styles.feature}>
-                            <Icon icon='solar:bicycling-round-outline' className={styles.icons} />
+                            <Icon icon='solar:cup-paper-outline' className={styles.icons} />
                             <div>
                                 <h2>Feature One</h2>
                                 <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum non suscipit hic asperiores eaque. Velit?</p>
                             </div>
                         </div>
                         <div className={styles.feature}>
-                            <Icon icon='solar:bicycling-round-outline' className={styles.icons} />
+                            <Icon icon='solar:flame-outline' className={styles.icons} />
                             <div>
                                 <h2>Feature One</h2>
                                 <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum non suscipit hic asperiores eaque. Velit?</p>

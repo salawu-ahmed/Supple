@@ -4,6 +4,7 @@ import Services from "./components/Services/Services"
 import Wrapper from "./components/Wrapper/Wrapper"
 import './App.css'
 import ChooseUs from "./components/Features/Fearures"
+import Reviews from "./components/Reviews/Reviews"
 
 function App() {
   return <>
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Services />
       <ChooseUs />
+      <Reviews />
     {/* </Wrapper> */}
   </>
 }

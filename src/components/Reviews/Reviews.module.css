@@ -1,0 +1,41 @@
+.reviews {
+    margin: 64px 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 64px;
+    font-family: 'Syne', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.review {
+    text-align: center;
+    padding: 12px;
+}
+
+.review.active {
+    background-color: #202121;
+    border: 1px solid #545555;
+}
+
+.review h3 {
+    font-family: "Syne", serif;
+    font-size: 28px;
+    font-weight: semi-bold;
+}
+
+.review p {
+    color: #C7C7C7;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+}
