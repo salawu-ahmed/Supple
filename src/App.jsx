@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper/Wrapper"
 import './App.css'
 import ChooseUs from "./components/Features/Fearures"
 import Reviews from "./components/Reviews/Reviews"
+import Order from "./components/Order/Order"
 
 function App() {
   return <>
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <ChooseUs />
       <Reviews />
+      <Order />
     {/* </Wrapper> */}
   </>
 }
