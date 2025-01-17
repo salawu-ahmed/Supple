@@ -1,0 +1,48 @@
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading .title {
+    font-size: 64px;
+    font-family: 'Syne', serif;
+    font-weight: bold;
+}
+
+.heading .subtitle {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    text-align: center;
+    color: #C7C7C7;
+}
+
+.tab {
+    padding: 20px 12px;
+    border: 1px solid #545555;
+    min-height: max-content;
+
+}
+
+.tab .tabTitle {
+    font-size: 24px;
+    font-family: "Syne", serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    /* background-color: yellow; */
+    font-family: "Montserrat", serif;
+    height: 0;
+    font-size: 20px;
+    overflow: hidden;
+    color: #c7c7c7;
+}
+
+.activeContent {
+    /* background-color: red; */
+    height: max-content;
+    transition: all 1s ease-in;
+}
+
