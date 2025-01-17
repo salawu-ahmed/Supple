@@ -1,0 +1,54 @@
+
+.recommendations {
+    margin: 64px 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading .title {
+    font-size: 64px;
+    font-family: 'Syne', serif;
+    font-weight: bold;
+}
+
+.heading .subtitle {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    text-align: center;
+    color: #C7C7C7;
+}
+
+.card {
+    width: 24%;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.title {
+    font-family: "Syne", serif;
+    font-size: 24px;
+    font-weight: semi-bold;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    text-align: center;
+    color: #C7C7C7;
+}
