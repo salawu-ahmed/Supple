@@ -4,7 +4,7 @@ export default function Paackage() {
     return (
         <section id='packages' className={styles.packages}>
             <hgroup className={styles.heading}>
-                <h2 className={styles.title}>Choose YOur Packages</h2>
+                <h2 className={styles.title}>Choose Your Packages</h2>
                 <p className={styles.subtitle}>Suspen dise tempus oncu enim pellen teste pretium.</p>
             </hgroup>
             <div className={styles.wrapper}>

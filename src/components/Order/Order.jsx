@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Order.module.css'
 import productMain from '../../assets/productImage.png'
 
 export default function Order() {
+    const [content, setContent] = useState('description')
+    function handleTabContent () {
+        setContent((prev) => {
+            return prev == 'description' ? 'reviews' : 'description'
+        })
+    }
     return (
         <section id='order' className={styles.order}>
             <div className={styles.heading}>
@@ -31,6 +37,32 @@ export default function Order() {
 
                     <div className={styles.divider}></div>
 
+                    <div className={styles.horizontalTab}>
+                        <div>
+                            <div className={`${content == "description" ? styles.active : undefined}`}onClick={() => handleTabContent('description')}>Description</div>
+                            <div className={`${content == "reviews" ? styles.active : undefined}`}onClick={() => handleTabContent('reviews')}>Reviews (2)</div>
+                        </div>
+                        <div className={styles.content}>
+                            {
+                                content == 'description' && <div>
+                                    Dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis empus oncu enim pellen. Pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis empus .
+                                </div>
+                            }
+                            {
+                                content == 'reviews' && <div>
+                                    <div>
+                                        <p>this is a very good product</p>
+                                        <small>Justice Okan</small>
+                                    </div>
+                                    <div>
+                                        <p>this is a very good product</p>
+                                        <small>Justice Okan</small>
+                                    </div>
+                                    <p>See more...</p>
+                                </div>
+                            }
+                        </div>
+                    </div>
 
                 </div>
             </div>
